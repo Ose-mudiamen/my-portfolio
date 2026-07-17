@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+tbody tr:hover {
+    background-color: #fff3b0;
+}
+.team-name img {
+    width: 24px;
+    vertical-align: middle;
+}

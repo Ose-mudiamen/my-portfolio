@@ -1,0 +1,37 @@
+body {
+    background: #fff;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 12px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: wheat;
+}
+article {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
+    flex-wrap: wrap;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer {
+        background-color: gray;
+        padding: 12px;
+}
+html { scroll-behavior: smooth;}
+
+article {
+    flex: 1 1 300px;
+}

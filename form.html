@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Form</title>
+        <link rel="stylesheet", href="form.css"/>
+    </head>
+    <body>
+        <h1>Event Registration Form</h1>
+        <form class ="form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="name">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="phone" id="phone" name="name">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="name">
+            </div>
+            <p>Click on Submit button on to Submit the form</p>
+            <div>
+                <input id="submit" type="submit">
+            </div>
+            <div>
+                <label for="size">T-shirt size</label>
+                <select id="size" name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div>
+        </form>
+        <fieldset>
+            <legend>Select your Payment Method</legend>
+
+            <input type="radio" id="small" name="size" value="small">
+            <label for="small">Small</label>
+
+            <input type="radio" id="medium" name="size" value="medium">
+            <label for="medium">Medium</label>
+
+            <input type="radio" id="large" name="size" value="large">
+            <label for="large">Large</label>
+        </fieldset>
+        <fieldset>
+            <legend>Dietary needs</legend>
+
+            <input type="checkbox" id="vegetarian" name="diet" value="vegetarian">
+            <label for="vegetarian">Vegetarian</label>
+
+            <input type="checkbox" id="halal" name="diet" value="halal">
+            <label for="halal">Halal</label>
+
+            <input type="checkbox" id="nut-allergy" name="diet" value="nut-allergy">
+            <label for="nut-allergy">Nut allergy</label>
+        </fieldset>
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+        </div>
+        <fieldset>
+            <legend>Your details</legend>
+        </fieldset>
+        <input type="text" id="name" name="name" required>
+        <input type="email" id="email" name="email" required>
+    </body>
+</html>

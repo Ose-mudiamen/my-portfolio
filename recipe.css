@@ -1,0 +1,35 @@
+body {
+    background: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 12px;
+}
+html { background: #f2f2f2; }
+h1 {
+    border-bottom:4px solid #8b2f27;
+}
+h2 {
+    margin-top: 40px;
+    border-bottom: 2px dashed #8b2f27;
+}
+a {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #8b2f27;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+blockquote {
+    background-color: white;
+    padding: 12px;
+    border-left: 6px thin #8b2f27; 
+}
+li {
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+img {
+    width: 100%;
+    border-radius: 12px;
+}
